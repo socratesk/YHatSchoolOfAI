@@ -7,34 +7,36 @@ Citation Request:
 1. Title: Breast cancer data (Michalski has used this)
 
 2. Sources: 
-   -- Matjaz Zwitter & Milan Soklic (physicians)
+- Matjaz Zwitter & Milan Soklic (physicians)
       Institute of Oncology 
       University Medical Center
       Ljubljana, Yugoslavia
-   -- Donors: Ming Tan and Jeff Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu)
-   -- Date: 11 July 1988
+- Donors: Ming Tan and Jeff Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu)
+- Date: 11 July 1988
 
 3. Past Usage: (Several: here are some)
-     -- Michalski,R.S., Mozetic,I., Hong,J., & Lavrac,N. (1986). The 
+- Michalski,R.S., Mozetic,I., Hong,J., & Lavrac,N. (1986). The 
         Multi-Purpose Incremental Learning System AQ15 and its Testing 
         Application to Three Medical Domains.  In Proceedings of the 
         Fifth National Conference on Artificial Intelligence, 1041-1045,
         Philadelphia, PA: Morgan Kaufmann.
-        -- accuracy range: 66%-72%
-     -- Clark,P. & Niblett,T. (1987). Induction in Noisy Domains.  In 
+- accuracy range: 66%-72%
+        
+- Clark,P. & Niblett,T. (1987). Induction in Noisy Domains.  In 
         Progress in Machine Learning (from the Proceedings of the 2nd
         European Working Session on Learning), 11-30, Bled, 
         Yugoslavia: Sigma Press.
-        -- 8 test results given: 65%-72% accuracy range
-     -- Tan, M., & Eshelman, L. (1988). Using weighted networks to 
+- 8 test results given: 65%-72% accuracy range
+- Tan, M., & Eshelman, L. (1988). Using weighted networks to 
         represent classification knowledge in noisy domains.  Proceedings 
         of the Fifth International Conference on Machine Learning, 121-134,
         Ann Arbor, MI.
-        -- 4 systems tested: accuracy range was 68%-73.5%
-    -- Cestnik,G., Konenenko,I, & Bratko,I. (1987). Assistant-86: A
+- 4 systems tested: accuracy range was 68%-73.5%
+        
+- Cestnik,G., Konenenko,I, & Bratko,I. (1987). Assistant-86: A
        Knowledge-Elicitation Tool for Sophisticated Users.  In I.Bratko
        & N.Lavrac (Eds.) Progress in Machine Learning, 31-45, Sigma Press.
-       -- Assistant-86: 78% accuracy
+- Assistant-86: 78% accuracy
 
 4. Relevant Information:
      This is one of three domains provided by the Oncology Institute
@@ -79,26 +81,26 @@ Num Discrete:      10
 Missing values:    9 /  0.3%
 
     name                      type enum ints real     missing    distinct  (1)
-  1 'age'                     Enum 100%   0%   0%     0 /  0%     6 /  2%   0% 
-  2 'menopause'               Enum 100%   0%   0%     0 /  0%     3 /  1%   0% 
-  3 'tumor-size'              Enum 100%   0%   0%     0 /  0%    11 /  4%   0% 
-  4 'inv-nodes'               Enum 100%   0%   0%     0 /  0%     7 /  2%   0% 
-  5 'node-caps'               Enum  97%   0%   0%     8 /  3%     2 /  1%   0% 
-  6 'deg-malig'               Enum 100%   0%   0%     0 /  0%     3 /  1%   0% 
-  7 'breast'                  Enum 100%   0%   0%     0 /  0%     2 /  1%   0% 
-  8 'breast-quad'             Enum 100%   0%   0%     1 /  0%     5 /  2%   0% 
-  9 'irradiat'                Enum 100%   0%   0%     0 /  0%     2 /  1%   0% 
- 10 'Class'                   Enum 100%   0%   0%     0 /  0%     2 /  1%   0% 
+	'age'                     Enum 100%   0%   0%     0 /  0%     6 /  2%   0% 
+	'menopause'               Enum 100%   0%   0%     0 /  0%     3 /  1%   0% 
+	'tumor-size'              Enum 100%   0%   0%     0 /  0%    11 /  4%   0% 
+	'inv-nodes'               Enum 100%   0%   0%     0 /  0%     7 /  2%   0% 
+	'node-caps'               Enum  97%   0%   0%     8 /  3%     2 /  1%   0% 
+	'deg-malig'               Enum 100%   0%   0%     0 /  0%     3 /  1%   0% 
+	'breast'                  Enum 100%   0%   0%     0 /  0%     2 /  1%   0% 
+	'breast-quad'             Enum 100%   0%   0%     1 /  0%     5 /  2%   0% 
+	'irradiat'                Enum 100%   0%   0%     0 /  0%     2 /  1%   0% 
+	'Class'                   Enum 100%   0%   0%     0 /  0%     2 /  1%   0% 
 
 
-Attributes:
-age {'10-19','20-29','30-39','40-49','50-59','60-69','70-79','80-89','90-99'}
-menopause {'lt40','ge40','premeno'}
-tumor-size {'0-4','5-9','10-14','15-19','20-24','25-29','30-34','35-39','40-44','45-49','50-54','55-59'}
-inv-nodes {'0-2','3-5','6-8','9-11','12-14','15-17','18-20','21-23','24-26','27-29','30-32','33-35','36-39'}
-node-caps {'yes','no'}
-deg-malig {'1','2','3'}
-breast {'left','right'}
-breast-quad {'left_up','left_low','right_up','right_low','central'}
-irradiat {'yes','no'}
-Class {'no-recurrence-events','recurrence-events'}
+   Attributes:
+   age {'10-19','20-29','30-39','40-49','50-59','60-69','70-79','80-89','90-99'}
+   menopause {'lt40','ge40','premeno'}
+   tumor-size {'0-4','5-9','10-14','15-19','20-24','25-29','30-34','35-39','40-44','45-49','50-54','55-59'}
+   inv-nodes {'0-2','3-5','6-8','9-11','12-14','15-17','18-20','21-23','24-26','27-29','30-32','33-35','36-39'}
+   node-caps {'yes','no'}
+   deg-malig {'1','2','3'}
+   breast {'left','right'}
+   breast-quad {'left_up','left_low','right_up','right_low','central'}
+   irradiat {'yes','no'}
+   Class {'no-recurrence-events','recurrence-events'}
