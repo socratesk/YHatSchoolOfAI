@@ -1,3 +1,7 @@
+DOC SOURCE: https://archive.ics.uci.edu/ml/machine-learning-databases/concrete/compressive/Concrete_Readme.txt <br>
+DATA SOURCE: https://archive.ics.uci.edu/ml/machine-learning-databases/concrete/compressive/Concrete_Data.xls
+
+
 Concrete Compressive Strength 
 
 ---------------------------------
