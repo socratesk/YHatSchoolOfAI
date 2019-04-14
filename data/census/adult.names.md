@@ -76,7 +76,7 @@ The term estimate refers to population totals derived from CPS by creating "weig
 People with similar demographic characteristics should have similar weights.  There is one important caveat to remember about this statement.  That is that since the CPS sample is actually a collection of 51 state samples, each with its own probability of selection, the statement only applies within state.<br>
 
 
->50K, <=50K.
+' >50K, <=50K.<br>
 
 age: continuous.<br>
 workclass: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked.<br>
